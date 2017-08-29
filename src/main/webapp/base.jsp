@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="ISO-8859-1"%>
+<%@ page import ="java.util.*, java.io.*, javax.servlet.*"  %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -26,6 +26,12 @@
 	
 	<div id="main">
 		<%= 1 + 1 %>
+		<p>Date: </p>
+		<% 
+		    Date d = new Date();
+		    out.print(d);
+		%>
+		
 	</div>
 	<footer>
 	</footer>
