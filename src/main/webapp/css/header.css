@@ -1,0 +1,49 @@
+header {
+	padding: 0px;
+	background-color: #14394F;
+	color: white;
+	border-style: none;
+	overflow: hidden;
+	height: 32px;
+}
+
+#top_title {
+	font-family: 'Nova Round', 'Droid Sans', sans-serif;
+	width: auto;
+	padding: 0px 16px;
+	margin: 0px 0px;
+	font-size: 18pt;
+	color: #00C8CA;
+	text-decoration: none;
+}
+
+#top_logo {
+	float: left;
+	width: 32px;
+	height: 32px;
+}
+
+
+ul {
+	float:right;
+	background-color: #14394F;
+	list-style: none;
+	margin-right: 20px;
+}
+
+ul li {
+	padding: 0px 4px;
+	background-color: #14394F;
+	font-family: 'Nova Round', 'Droid Sans', sans-serif;
+	float: left;
+}
+
+ul a {
+	font-size: 10pt;
+	color: white;
+	text-decoration: none;
+}
+
+ul a:hover {
+	color: lightblue;
+}

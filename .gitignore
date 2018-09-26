@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+/target/
+>>>>>>> aed69dcc16073d1339b2e7270a597f4b124ceda0
 target
 .settings/*
 !.settings/.jsdtscope
